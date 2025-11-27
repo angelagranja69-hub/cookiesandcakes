@@ -1,0 +1,94 @@
+.Cabecera
+{
+    width: 100%;
+    max-height: 10%;
+}
+.menu
+{
+    display: inline-block;/*bloque en linea horizontal*/
+    background-color: rgb(148, 206, 148);
+    width: 100%;       
+}
+.lista
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(95, 55, 12);
+    font-size: 12pt;
+    list-style: none;
+    text-align: center;
+    
+}
+.lista > li
+{
+    display: inline-block;/*bloque en linea horizontal*/
+    position: relative;
+    /*las posiciones absolutas las ocupamos cuando vamos a 
+    diseñar objetos fijos = no cambian las propiedades del ancho y alto*/
+}
+.lista > li > a
+{
+    text-decoration: none;
+    color: rgb(102, 35, 11);
+    padding: 10px;    
+}
+.lista > li a:hover
+{
+    background-color:  rgb(97, 175, 97);
+    color: rgb(69, 30, 2);
+    text-decoration: underline;     
+}
+.sublista
+{
+    display: none; /*no se muestre la sublista inicialmente*/
+    position: absolute; /*no oculta el campo de lista*/
+    background-color: rgb(193, 222, 193);
+    list-style: none; /*no va a tener puntos*/ 
+    margin: 0;
+    padding: 0;
+    min-width: 180px;
+    z-index: 1000; /*hace que se muestre encima de otros elementos*/
+    top: 100%;
+    left: 0;
+    border-radius: 5px;    
+}
+.sublista li a /*editar el estilo de los items de sublista*/
+{
+    display: block; /*cada enlace ocupa toda la fila*/
+    padding: 15px;
+    color: rgb(102, 35, 11);
+    text-decoration: none;
+    text-align: left;
+}
+.sublista li a:hover /*cambia de color al pasar el mouse*/
+{
+    background-color: rgb(97, 175, 97) ;
+    color:rgb(71, 31, 16);
+    text-decoration: none;
+}
+/* Mostrar submenú al pasar el mouse */
+.lista > li:hover .sublista
+{
+    display: block;
+}
+.productos
+{
+    background-color: white;
+    border:1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.productos h3
+{
+    color: rgb(138, 100, 43);
+    margin-bottom: 10px;
+
+}
+.productos p
+{
+    color: rgb(170, 110, 53);
+}

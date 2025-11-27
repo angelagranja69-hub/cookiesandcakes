@@ -1,0 +1,62 @@
+.Banner
+{
+    width: 100%;
+    height: 650px;
+    /*propiedad para agregar un fondo de pantalla a un objeto*/
+    background-image: url("../imagenes/contenido/1.png");
+    background-size: cover;
+    background-position: justify;/*JUSTIFY*/
+    color: rgb(218, 61, 13);
+    font-size: 16pt;
+    /*existen tres propiedades de alineacion de texto*/
+    align-items: center; /*para alineacion de objetos: imagenes*/
+    justify-content: center;/*para alinear todo el contenido situado dentro de un contenedor*/
+    text-align: center; /* para alinear texto*/
+    /*left,justify, right, center, top*/
+
+    /*position: absolute;*//*para eliminar un elemento del flujo normal del documento 
+    y posicionarlo de forma precisa con respecto a su contenedor padre posicionado más cercano*/
+    /*position: fixed;*//*se utiliza para posicionar un elemento de forma que permanezca fijo 
+    en la misma posición en la pantalla, 
+    sin importar el desplazamiento (scroll) del usuario*/
+    position: relative;/* POSICIONA UN ELEMENTO RESPECTO A SU POSICION
+    ORIGINAL EN EL FLUJO, SIN AFECTAR LA POSICION DE OTROS ELEMENTOS*/
+
+    /*display: block;*/ /*se utiliza para que un elemento HTML se comporte como un 
+    bloque, ocupando el ancho completo de su contenedor 
+    y comenzando en una nueva línea*/
+    /*display: flexbox;*/
+    display: flex;
+}
+
+
+
+
+.Banner::before
+{
+    content: " ";/*creamos un contenedor para la mascara que se posiciona 
+    encima de la imagen de manera vacia*/
+    position: absolute;
+    background-color: rgba(127, 255, 212, 0.251);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.cont_banner
+
+{
+    position: relative;
+    z-index: 8px;/*profundidad de marcacion en el texto y que tan visible sera*/
+    max-width: 50rem;/*50 por 16 px = 800 px*/
+}
+.cont_banner h1
+{
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+.cont_banner p{
+    font-size: 14pt;
+}
