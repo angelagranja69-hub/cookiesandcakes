@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Angela Granja">
+    <meta name="keywords" content="Reposteria, Dulces, cookies">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/estilo1.css">
+    <link rel="stylesheet" href="./Css/estilo2.css">
+    <link rel="icon" href="./imgcabecera/ICONO.png" type="image/png">
+
+     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+          crossorigin="anonymous">
+      
+    <title>Cookies and Cakes | Repostería artesanal</title>
+</head>
+<body>
+   <!-- Cabecera -->
+    
+    <header>
+        <img class="Cabecera" src="./imgcabecera/banner repostería.png" alt="Imagen_cabecera">
+    </header>
+
+    <!-- Navegación -->                 
+    
+    <nav class="menu"> <!-- Navegación = asociada con el menú de navegación-->
+        <ul class="lista">
+            <li><a href="./index.html" class="foco activo" tabindex="0">INICIO</a>
+                <ul class="sublista">
+                    
+                </ul>
+            </li>
+            <li><a href="./productos.html" class="foco" tabindex="0">PRODUCTOS</a>
+                <ul class="sublista">
+                    <li><a href="./tortas.html">Tortas</a></li>
+                    <li><a href="./galletas.html">Galletas</a></li>
+                    <li><a href="./cupcakes.html">Cupcakes y postres</a></li>
+                </ul>
+            </li>
+              <li><a href="./recetas.html" class="foco" tabindex="0">RECETAS</a>
+                            
+            </li>
+            <li><a href="./servicios.html" class="foco" tabindex="0">SERVICIOS</a>
+                <ul class="sublista">
+                    <li><a href="./servicios.html">Promociones y Combos</a></li>
+                    <li><a href="./servicios.html">Servicios Personalizados</a></li>
+                </ul>
+            </li>
+            <li><a href="./contacto.html">CONTACTANOS</a>
+                <ul class="sublista">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Dirección</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main> <!--etiqueta para el metodo principal = Aloja el contenido web-->
+       <!-- Carrusel -->
+        <section class="Contenedor">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"> 
+  <!-- Contenedor del carrusel, con su id y clases de bootstrap -->
+                <div class="carousel-indicators"> <!-- Indicadores puntos debajo del carrusel que permiten navegar entre imágenes -->
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <!-- Botón para el primer slide activo al inicio -->
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>  <!-- Botón para el segundo slide -->
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>   <!-- Botón para el tercer slide -->
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button> 
+                </div>
+                <div class="carousel-inner">  <!-- Contenedor de todas las imágenes del carrusel -->
+                    <div class="carousel-item active d-item"> <!-- Primera imagen -->
+                        <img src="./banner/1.png" class="d-block w-100 d-img" alt="slider1">
+                    </div>
+                    <div class="carousel-item d-item">  <!-- Segunda imagen -->
+                        <img src="./banner/5.png" class="d-block w-100" alt="slider2">
+                    </div>
+                    <div class="carousel-item d-item"> <!-- Tercera imagen -->
+                        <img src="./banner/3.png" class="d-block w-100" alt="slider3">
+                    </div>
+                    <div class="carousel-item d-item"> <!-- Tercera imagen -->
+                        <img src="./banner/4.png" class="d-block w-100" alt="slider3">
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <!-- Botón de control para ir a la imagen anterior -->
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>  <!-- Icono de flecha hacia la izquierda -->
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <!-- Botón de control para ir a la imagen siguiente -->
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span> <!-- Icono de flecha hacia la derecha -->
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section> 
+        <!-- Sección 1 -->
+        <section class="Contenedor">
+            <section class="Texto1">
+                <h1>¡EL SECRETO SIEMPRE ESTÁ EN COMPARTIR!</h1>
+                <h3>Conoce nuestras deliciosas categorías</h3>
+            </section>            
+        </section>         
+                                   
+        <!-- Sección 2 -->
+        <section class="Contenedor">
+            <section class="Imagen2">
+                <img class="imgt2" src="./imgcontenido/Torta-zanahoria_1080x.webp">
+            </section>
+
+          <section class="Texto2">
+                <h2>TORTAS </h2>
+                <br>
+                <section >
+                <p>
+                Las tortas y pasteles son el corazón de cada celebración, el detalle que convierte cualquier momento en algo inolvidable. En nuestra tienda encontrarás opciones para todos los gustos: desde las tortas clásicas de vainilla o chocolate, hasta combinaciones más creativas con frutas frescas, frutos secos o ingredientes naturales. 
+                </p>
+
+                <p>
+                Cada torta es elaborada de manera artesanal, cuidando la textura, el sabor y la presentación para que sea tan deliciosa como hermosa. Puedes elegir entre diseños personalizados, decoraciones temáticas o estilos sencillos con un toque elegante, ideales para cumpleaños, aniversarios, eventos o simplemente para consentirte. 
+                </p>
+
+                <p>
+                Usamos ingredientes frescos, naturales y de alta calidad, porque creemos que el sabor auténtico nace del amor y la dedicación con que se prepara cada pastel. Ya sea para celebrar, regalar o disfrutar en casa, nuestras tortas están hechas para llenar de dulzura tus momentos más especiales.
+                </p>
+
+                </section>
+          </section>
+        </section>
+        <!-- Sección 3 -->      
+        <section class="Contenedor">
+          
+          <section class="Texto3">
+                <h2>POSTRES Y CUPCAKES </h2>
+                <br>
+                <section >
+                <p>
+                Los cupcakes y mini postres son el detalle perfecto para alegrar cualquier momento. Ideales para regalar, compartir o endulzar una reunión, en nuestra tienda encontrarás una gran variedad de sabores, diseños y estilos hechos con amor y dedicación. 
+                </p>
+                <p>
+                Cada cupcake está preparado con ingredientes frescos y naturales, logrando una textura esponjosa, un sabor irresistible y decoraciones que enamoran a primera vista. Tenemos desde los clásicos de vainilla y chocolate, hasta combinaciones especiales con frutas, crema, café o rellenos personalizados.
+                </p>
+                <p>
+                También puedes elegir mini postres para tus eventos, cajas de regalo o antojos del día a día. Déjate tentar por nuestras opciones dulces y lleva contigo un pedacito de felicidad en cada bocado.
+                </p>
+                </section>
+          </section>
+            <section class="Imagen3">
+                <img class="imgt3" src="./imgcontenido/cupcakes1.jpg">
+            </section>
+        </section>
+
+        <!-- Sección 4 -->
+        <section class="Contenedor">
+            <section class="Imagen5">
+                <img class="imgt5" src="./imgcontenido/galletas.jpg">
+            </section>
+
+          <section class="Texto5">
+                <h2>GALLETAS </h2>
+                <br>
+                <section >
+                <p>
+                Las galletas son ese pequeño placer que nunca pasa de moda. Crujientes por fuera, suaves por dentro y con ese aroma irresistible que llena de alegría cualquier momento. En nuestra tienda encontrarás una deliciosa variedad de sabores y estilos, hechas artesanalmente con ingredientes frescos y mucho cariño. 
+                </p>
+                <p>
+                Tenemos desde las clásicas galletas de mantequilla y chispas de chocolate hasta opciones más creativas con avena, frutos secos o decoradas con glaseados y diseños personalizados. Perfectas para regalar, acompañar un café o endulzar una tarde especial. 
+                </p>
+                <p>
+                Cada una está elaborada a mano, cuidando cada detalle para ofrecerte un sabor casero y una presentación encantadora. Ya sea para un evento, un detalle especial o simplemente un antojito, nuestras galletas son el toque dulce que siempre alegra el día.
+                </p>
+            </section>
+          </section>
+        </section>
+        
+        <div class="text-center">
+            <a href="./productos.html" class="BTN1">VER PRODUCTOS</a>
+        </div>
+       
+         <section class="Contenedor">
+           
+          <section class="Texto6">
+                <h2>SOBRE NOSOTROS </h2>
+                <br>
+                <section >
+                <p>
+                En Cookies and Cakes creemos que cada postre cuenta una historia, y la nuestra comenzó con el deseo de compartir momentos felices a través del sabor y la dedicación. Somos una tienda de repostería artesanal donde el amor, la frescura y los ingredientes naturales son la base de todo lo que hacemos. 
+                </p>
+                <p>
+                Cada torta, cupcake o galleta que preparamos está pensada para transmitir cariño y alegría. Nos inspira ver cómo un detalle dulce puede transformar una ocasión común en un recuerdo especial. Por eso cuidamos cada paso: desde la selección de los ingredientes hasta la decoración final.
+                </p>
+                <p>
+                Más que una pastelería, somos un espacio donde se mezclan los aromas, los colores y la creatividad. Queremos que cuando pruebes nuestros productos, sientas ese toque casero y auténtico que solo nace cuando se cocina con el corazón.
+                </p>
+                <p>
+                Bienvenido(a) a Cookies and Cakes, un rincón donde el amor se hornea todos los días.
+                </p>
+        </section>
+          </section>
+
+        </section>   
+
+<section class="Contenedorform">
+    <section class="Texto7">
+    <h2>SUSCRÍBETE A NUESTRO BOLETÍN DE NOTICIAS </h2>
+    </section>
+    <form> <!-- Inicio del formulario -->
+        <div class="form-group"> <!-- Grupo para ingresar el correo electrónico -->
+            <label for="exampleInputEmail1">Correo electrónico</label> <!-- Etiqueta asociada al campo de correo -->
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo con nadie más.</small> <!-- Texto de ayuda debajo del campo de correo -->
+        </div>
+  
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Acepto recibir novedades y promociones.</label>
+        </div>
+        <button type="submit" class="btn btn-primary">SUSCRIBIRME</button>
+    </form>
+
+</section>      
+      
+    </main>
+
+<footer class="piedepagina">
+    <img class="imagenf" src="./imgcabecera/ICONO.png" alt="">
+    <ul class="social">
+        <li class="icono">
+            <a href="https://www.instagram.com/" class="icon" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+        </li>
+        <li class="icono">
+            <a href="https://web.facebook.com/" class="icon" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+        </li>
+    </ul>
+
+    <ul class="menu">
+        <li class="elementos">
+            <a href="./index.html" class="iconos">Inicio</a>
+        </li>
+        <li class="elementos">
+            <a href="#" class="iconos">Equipo</a>
+        </li>
+        <li class="elementos">
+            <a href="./contacto.html" class="iconos">Contacto</a>
+        </li>
+        <li class="elementos">
+            <a href="./index.html" class="iconos">Sobre Nosotros</a>
+        </li>
+    </ul>
+
+    <p class="text">© 2025 | Todos los derechos reservados</p>
+</footer>
+
+<script  type = "module"  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js " > </script> 
+<script nomodule  src  = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js " > </script>
+<!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+            crossorigin="anonymous"></script>
+</body>
+</html>
