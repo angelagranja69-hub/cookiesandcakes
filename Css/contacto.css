@@ -1,0 +1,65 @@
+.contenedor-contacto {
+    width:auto;
+    height: auto;
+    background-color:  rgb(238, 236, 232);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12pt;
+    display: flex;
+    
+    padding: 5px;
+}
+
+.contenedor-contacto h1 {
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+     
+}
+
+.contenedor-contacto p {
+    color: #444;
+    margin-top: 10px;
+    font-size: 22pt;
+    text-align: left;
+}
+
+
+.infocontacto {
+    background-color: rgb(238, 236, 232);
+    width: 100%;
+    text-align: center;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px
+    
+}
+
+.infocontacto p {
+    
+    color: #444;
+}
+
+.redes {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.icono {
+    font-size: 35px;
+    color: rgb(148, 206, 148);
+}
+
+.icono:hover {
+    color: rgb(118, 176, 118);
+}
+
+.infolocalizacion{
+    background-color: rgb(238, 236, 232);
+    width: 100%;
+    text-align: center;
+   
+    padding: 10px
+    
+}
+
+
